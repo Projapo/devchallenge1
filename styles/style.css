@@ -55,7 +55,8 @@ header{
 }
 /* responsive style */
 @media screen and (max-width:576) {
-    .head{
-        margin-left: 0px;
+    .container{
+        flex-direction: column;
+        width: 100%;
     }
 }
