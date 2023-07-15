@@ -11,8 +11,8 @@ header{
 }
 
 .img{
-    width: 300px;
-    height: 250px;
+    width: 350px;
+    height: 380px;
 }
 
 .container{
@@ -28,7 +28,7 @@ header{
 }
 
 .foot{
-    margin-top: 340px;
+    margin-top: 210px;
     margin-left: 570px;
     margin-bottom: 24px;
 }
@@ -37,7 +37,20 @@ header{
     font-family: Space Mono;
     font-size: 60px;
     font-weight: 700;
+}
+.pp{
+    color: #4F4F4F;
+    font-family: Space Mono;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: -10px;
+}
 
+.btn{
+    margin-top: 20px;
+    background: #333;
+    color: white;
+    padding: 20px 30px 20px 30px;
 
 }
 /* responsive style */
