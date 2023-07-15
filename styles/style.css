@@ -54,9 +54,21 @@ header{
 
 }
 /* responsive style */
-@media screen and (max-width:576) {
-    .container{
+
+@media screen and (max-width:576px) {
+    .container, .head, .foot{
         flex-direction: column;
-        width: 100%;
+        justify-content: center;     
     }
+
+    .head{
+        padding: 10px;
+    }
+    .container .img{
+        width: 280px;
+        height: 230px;
+    }
+
+
+    
 }
